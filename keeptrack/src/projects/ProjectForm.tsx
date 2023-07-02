@@ -2,6 +2,7 @@ import React, { SyntheticEvent } from "react";
 import { Project } from "./Project";
 
 interface ProjectFormProps {
+  project: Project;
   onSave: (project: Project) => void;
   onCancel: () => void;
 }
