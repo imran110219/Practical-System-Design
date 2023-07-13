@@ -18,6 +18,7 @@ function ProjectForm({
     description: '',
     budget: '',
   });
+
   const handleSubmit = (event: SyntheticEvent) => {
     event.preventDefault();
     if (!isValid()) return;
